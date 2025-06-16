@@ -1,4 +1,4 @@
-<fable>
+
   <page id="start" bg_image="represa_destruida.png" bg_music="chuva_fraca.mp3">
     <agent
       id="titulo"
