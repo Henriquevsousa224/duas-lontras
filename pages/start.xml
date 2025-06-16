@@ -1,5 +1,5 @@
-
-  <page id="start" bg_image="represa_destruida.png" bg_music="chuva_fraca.mp3">
+<fable>
+  <page id="start" bg_image="represa_destruida.png">
     <agent
       id="titulo"
       text="As Duas Lontras e a Represa"
