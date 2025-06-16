@@ -1,53 +1,47 @@
-<fable>
-  <page id="decisao" bg_image="margem_do_rio.png">
-    <agent
+
+  <page id="decisao">
+    <agent 
       id="dialogo_leo"
-      text="Léo diz: &quot;Precisamos ser rápidos! Vamos usar estes galhos grandes. Terminamos em um piscar de olhos!&quot;"
+      text='Léo diz: "Precisamos ser rápidos! Vamos usar estes galhos grandes. Terminamos em um piscar de olhos!"'
       color="black"
       font-size="20"
-      x="100"
-      y="80"
+      x="100" y="80"
     />
-    <agent
+    <agent 
       id="dialogo_mia"
-      text="Mia retruca: &quot;Isso não é seguro! Precisamos usar pedras e barro. Vai demorar mais, mas será muito mais forte.&quot;"
+      text='Mia retruca: "Isso não é seguro! Precisamos usar pedras e barro. Vai demorar mais, mas será muito mais forte."'
       color="black"
       font-size="20"
-      x="100"
-      y="180"
+      x="100" y="180"
     />
-    <agent
+    <agent 
       id="pergunta"
       text="O que você aconselha as lontras a fazerem?"
       color="darkblue"
       font-size="28"
-      x="150"
-      y="300"
+      x="150" y="300"
     />
-
-    <agent
+    
+    <agent 
       id="escolha_leo"
       text="Seguir o plano de Léo (Rapidez)"
       on_click="goToPage('final_fracasso_rapido')"
       font-size="22"
-      x="80"
-      y="420"
+      x="80" y="420"
     />
-    <agent
+    <agent 
       id="escolha_mia"
       text="Seguir o plano de Mia (Segurança)"
       on_click="goToPage('final_fracasso_lento')"
       font-size="22"
-      x="380"
-      y="420"
+      x="380" y="420"
     />
-    <agent
+    <agent 
       id="escolha_cooperar"
       text="Sugerir que combinem os planos"
       on_click="goToPage('final_sucesso')"
       font-size="22"
-      x="700"
-      y="420"
+      x="700" y="420"
     />
   </page>
 </fable>
