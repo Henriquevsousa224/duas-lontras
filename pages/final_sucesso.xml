@@ -1,6 +1,4 @@
-Pronto! Aqui está o código que você enviou, com os atributos `bg_image` removidos de todas as tags `<page>`:
-
-```xml
+<page>
 <page id="final_fracasso_rapido">
   <agent
     id="botao_reiniciar_1"
