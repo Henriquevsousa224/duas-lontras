@@ -1,3 +1,26 @@
-<page id="final_fracasso_rapido" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página final_fracasso_rapido" color="white" font-size="24" />
+<page id="final_fracasso_rapido">
+  <agent
+    id="narrador_final_1"
+    text="Seguindo o conselho, elas usaram apenas os galhos. A represa foi construída rápido, mas ficou fraca. Na primeira marola do rio, a estrutura cedeu. Elas perderam um tempo precioso."
+    color="black"
+    font-size="26"
+    x="100"
+    y="150"
+  />
+  <agent
+    id="moral_1"
+    text="Moral: A pressa é inimiga da perfeição."
+    color="red"
+    font-size="24"
+    x="250"
+    y="350"
+  />
+  <agent
+    id="botao_reiniciar_1"
+    text="Tentar Novamente"
+    on_click="goToPage('start')"
+    font-size="28"
+    x="350"
+    y="450"
+  />
 </page>
