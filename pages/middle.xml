@@ -1,19 +1,53 @@
-<page id="middle" bg_image="tech-bg-lab.png" bg_music="osts-vilo.mp3">
-  <agent
-    id="teste"
-    text="Hello World Middle"
-    color="white"
-    x="center"
-    y="center"
-    font-size="70"
-  />
+<fable>
+  <page id="decisao" bg_image="margem_do_rio.png">
+    <agent
+      id="dialogo_leo"
+      text="Léo diz: &quot;Precisamos ser rápidos! Vamos usar estes galhos grandes. Terminamos em um piscar de olhos!&quot;"
+      color="black"
+      font-size="20"
+      x="100"
+      y="80"
+    />
+    <agent
+      id="dialogo_mia"
+      text="Mia retruca: &quot;Isso não é seguro! Precisamos usar pedras e barro. Vai demorar mais, mas será muito mais forte.&quot;"
+      color="black"
+      font-size="20"
+      x="100"
+      y="180"
+    />
+    <agent
+      id="pergunta"
+      text="O que você aconselha as lontras a fazerem?"
+      color="darkblue"
+      font-size="28"
+      x="150"
+      y="300"
+    />
 
-  <agent
-    id="next_page_text"
-    text="Proxima Pagina"
-    animation="glitch"
-    y="480"
-    x="640"
-    on_click="goToPage('ending')"
-  />
-</page>
+    <agent
+      id="escolha_leo"
+      text="Seguir o plano de Léo (Rapidez)"
+      on_click="goToPage('final_fracasso_rapido')"
+      font-size="22"
+      x="80"
+      y="420"
+    />
+    <agent
+      id="escolha_mia"
+      text="Seguir o plano de Mia (Segurança)"
+      on_click="goToPage('final_fracasso_lento')"
+      font-size="22"
+      x="380"
+      y="420"
+    />
+    <agent
+      id="escolha_cooperar"
+      text="Sugerir que combinem os planos"
+      on_click="goToPage('final_sucesso')"
+      font-size="22"
+      x="700"
+      y="420"
+    />
+  </page>
+</fable>
