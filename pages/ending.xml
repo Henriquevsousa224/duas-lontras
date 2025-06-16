@@ -1,9 +1,5 @@
-
-  <page
-    id="final_fracasso_rapido"
-    bg_image="represa_quebrando.png"
-    bg_music="som_madeira_quebrando.mp3"
-  >
+<fable>
+  <page id="final_fracasso_rapido" bg_image="represa_quebrando.png">
     <agent
       id="narrador_final_1"
       text="Seguindo o conselho, elas usaram apenas os galhos. A represa foi construída rápido, mas ficou fraca. Na primeira marola do rio, a estrutura cedeu. Elas perderam um tempo precioso."
@@ -30,11 +26,7 @@
     />
   </page>
 
-  <page
-    id="final_fracasso_lento"
-    bg_image="casa_inundada.png"
-    bg_music="som_tempestade.mp3"
-  >
+  <page id="final_fracasso_lento" bg_image="casa_inundada.png">
     <agent
       id="narrador_final_2"
       text="Elas seguiram o plano seguro de Mia. A construção era sólida, mas muito lenta. Antes que pudessem terminar, a nova tempestade chegou e a água invadiu a casa das lontras."
@@ -61,11 +53,7 @@
     />
   </page>
 
-  <page
-    id="final_sucesso"
-    bg_image="represa_forte_sol.png"
-    bg_music="musica_vitoriosa.mp3"
-  >
+  <page id="final_sucesso" bg_image="represa_forte_sol.png">
     <agent
       id="narrador_final_3"
       text="Com o seu conselho, elas uniram as ideias! Usaram os galhos grandes de Léo para a base e reforçaram tudo com as pedras e o barro de Mia. Terminaram a tempo de ver o sol nascer atrás de sua nova e forte represa."
