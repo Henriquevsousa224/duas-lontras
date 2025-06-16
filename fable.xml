@@ -1,5 +1,3 @@
 <fable>
-  <include src="start.xml" />
-  <include src="middle.xml" />
-  <include src="ending.xml" />
+  <start />
 </fable>
