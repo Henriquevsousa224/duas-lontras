@@ -1,5 +1,5 @@
-<fable>
-  <page id="final_fracasso_rapido" bg_image="represa_quebrando.png">
+
+  <page id="final_fracasso_rapido" 
     <agent
       id="botao_reiniciar_1"
       text="Tentar Novamente"
@@ -31,4 +31,3 @@
       y="450"
     />
   </page>
-</fable>
