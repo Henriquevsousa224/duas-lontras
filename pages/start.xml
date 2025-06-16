@@ -1,17 +1,9 @@
 <fable>
   <page id="start">
     <agent
-      id="background"
-      image="represa_destruida.png"
-      x="0"
-      y="0"
-      width="100%"
-      height="100%"
-    />
-    <agent
       id="titulo"
       text="As Duas Lontras e a Represa"
-      color="white"
+      color="black"
       font-size="40"
       x="200"
       y="50"
@@ -19,7 +11,7 @@
     <agent
       id="narrador_inicio"
       text="Uma forte chuva destruiu a represa que protegia a casa das lontras Léo e Mia. Agora, com outra tempestade se aproximando, elas precisam reconstruí-la urgentemente, mas não conseguem concordar em como fazer isso."
-      color="white"
+      color="black"
       font-size="24"
       x="100"
       y="150"
