@@ -1,5 +1,13 @@
 <fable>
-  <page id="start" bg_image="represa_destruida.png">
+  <page id="start">
+    <agent
+      id="background"
+      image="represa_destruida.png"
+      x="0"
+      y="0"
+      width="100%"
+      height="100%"
+    />
     <agent
       id="titulo"
       text="As Duas Lontras e a Represa"
