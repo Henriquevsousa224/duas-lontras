@@ -1,19 +1,30 @@
-<page id="start" bg_image="tech-bg-lab.png" bg_music="osts-vilo.mp3">
-  <agent
-    id="teste"
-    text="Hello World"
-    color="white"
-    x="center"
-    y="center"
-    font-size="70"
-  />
-
-  <agent
-    id="next_page_text"
-    text="Proxima Pagina"
-    animation="glitch"
-    y="480"
-    x="640"
-    on_click="goToPage('middle')"
-  />
-</page>
+<fable>
+  <page id="start" bg_image="represa_destruida.png" bg_music="chuva_fraca.mp3">
+    <agent
+      id="titulo"
+      text="As Duas Lontras e a Represa"
+      color="white"
+      font-size="40"
+      x="200"
+      y="50"
+    />
+    <agent
+      id="narrador_inicio"
+      text="Uma forte chuva destruiu a represa que protegia a casa das lontras Léo e Mia. Agora, com outra tempestade se aproximando, elas precisam reconstruí-la urgentemente, mas não conseguem concordar em como fazer isso."
+      color="white"
+      font-size="24"
+      x="100"
+      y="150"
+      width="700"
+    />
+    <agent
+      id="botao_continuar"
+      text="Ver os planos"
+      on_click="goToPage('decisao')"
+      font-size="28"
+      animation="pulse"
+      x="380"
+      y="450"
+    />
+  </page>
+</fable>
