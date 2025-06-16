@@ -27,7 +27,7 @@
   <agent
     id="escolha_leo"
     text="Seguir o plano de Léo (Rapidez)"
-    on_click="goToPage('final_fracasso_rapido')"
+    on_click="goToPage('finalfracassorapido')"
     font-size="22"
     x="80"
     y="420"
@@ -35,7 +35,7 @@
   <agent
     id="escolha_mia"
     text="Seguir o plano de Mia (Segurança)"
-    on_click="goToPage('final_fracasso_lento')"
+    on_click="goToPage('finalfracassolento')"
     font-size="22"
     x="380"
     y="420"
@@ -43,7 +43,7 @@
   <agent
     id="escolha_cooperar"
     text="Sugerir que combinem os planos"
-    on_click="goToPage('final_sucesso')"
+    on_click="goToPage('finalsucesso')"
     font-size="22"
     x="700"
     y="420"
