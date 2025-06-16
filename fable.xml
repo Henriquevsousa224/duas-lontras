@@ -1,7 +1,19 @@
 <fable>
-  <start />
-  <decisao />
-  <finalsucesso />
-  <finalfracassolento />
-  <finalfracassorapido />
+  <config font-family="Arial" />
+  <property name="score" default="0" />
+  <page id="start">
+    <agent id="intro" x="50" y="50" text="Bem-vindo à fábula!" />
+  </page>
+  <page id="decisao">
+    <agent id="pergunta" x="50" y="100" text="Qual caminho você escolhe?" />
+  </page>
+  <page id="finalsucesso">
+    <agent id="sucesso" x="50" y="150" text="Parabéns, você teve sucesso!" />
+  </page>
+  <page id="finalfracassolento">
+    <agent id="fracassoLento" x="50" y="200" text="Você falhou lentamente." />
+  </page>
+  <page id="finalfracassorapido">
+    <agent id="fracassoRapido" x="50" y="250" text="Você falhou rapidamente." />
+  </page>
 </fable>
