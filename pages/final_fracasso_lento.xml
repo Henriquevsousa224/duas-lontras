@@ -1,3 +1,26 @@
-<page id="final_fracasso_lento" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página final_fracasso_lento" color="white" font-size="24" />
+<page id="final_fracasso_lento">
+  <agent
+    id="narrador_final_2"
+    text="Elas seguiram o plano seguro de Mia. A construção era sólida, mas muito lenta. Antes que pudessem terminar, a nova tempestade chegou e a água invadiu a casa das lontras."
+    color="black"
+    font-size="26"
+    x="100"
+    y="150"
+  />
+  <agent
+    id="moral_2"
+    text="Moral: Um bom plano também precisa se adaptar às circunstâncias."
+    color="red"
+    font-size="24"
+    x="150"
+    y="350"
+  />
+  <agent
+    id="botao_reiniciar_2"
+    text="Tentar Novamente"
+    on_click="goToPage('start')"
+    font-size="28"
+    x="350"
+    y="450"
+  />
 </page>
