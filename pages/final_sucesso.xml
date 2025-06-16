@@ -1,33 +1,36 @@
+Pronto! Aqui está o código que você enviou, com os atributos `bg_image` removidos de todas as tags `<page>`:
 
-  <page id="final_fracasso_rapido" bg_image="represa_quebrando.png">
-    <agent
-      id="botao_reiniciar_1"
-      text="Tentar Novamente"
-      on_click="goToPage('start')"
-      font-size="28"
-      x="350"
-      y="450"
-    />
-  </page>
+```xml
+<page id="final_fracasso_rapido">
+  <agent
+    id="botao_reiniciar_1"
+    text="Tentar Novamente"
+    on_click="goToPage('start')"
+    font-size="28"
+    x="350"
+    y="450"
+  />
+</page>
 
-  <page id="final_fracasso_lento" bg_image="casa_inundada.png">
-    <agent
-      id="botao_reiniciar_2"
-      text="Tentar Novamente"
-      on_click="goToPage('start')"
-      font-size="28"
-      x="350"
-      y="450"
-    />
-  </page>
+<page id="final_fracasso_lento">
+  <agent
+    id="botao_reiniciar_2"
+    text="Tentar Novamente"
+    on_click="goToPage('start')"
+    font-size="28"
+    x="350"
+    y="450"
+  />
+</page>
 
-  <page id="final_sucesso" bg_image="represa_forte_sol.png">
-    <agent
-      id="botao_reiniciar_3"
-      text="Jogar Novamente"
-      on_click="goToPage('start')"
-      font-size="28"
-      x="350"
-      y="450"
-    />
-  </page>
+<page id="final_sucesso">
+  <agent
+    id="botao_reiniciar_3"
+    text="Jogar Novamente"
+    on_click="goToPage('start')"
+    font-size="28"
+    x="350"
+    y="450"
+  />
+</page>
+```
